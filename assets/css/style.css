@@ -20,7 +20,9 @@ body {
 }
 
 .float-right-links {
+    text: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     float: right;
+    color: #777777;
 }
 
 .info .portfolio {
@@ -53,12 +55,14 @@ img {
 }
 
 footer {
+    position: fixed;
+    text-align: center;
     clear: both;
     height: 60px;
     color: white;
-    text-align: center;
     line-height: 90px;
-    margin-top: 10%;
     background-color: grey;
-    padding-block-end: 10% 0% 10% 0%;
+    padding-bottom: 0%;
+    padding-right: 50%;
+    padding-left: 50%;
 }
