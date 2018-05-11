@@ -14,41 +14,50 @@ header {
 
 }
 
+body {
+    background-color: lightgrey;
+    margin: 0%;
+}
+
 .float-right-links {
     float: right;
 }
 
-body{
-    margin: 0%;
-}
-
-.info {
+.info .portfolio {
     text-align: left;
     text-align-last: auto;
     background-color: white;
-    padding: 1% 5% 1% 5%;
-    
+    padding: 0% 5% 1% 5%;   
 }
 
 h1 {
     clear: both;
     color: #4aaaa5;
+    margin-left: 5%;
 }
 
 img {
     width: 200px;
     float: left;
-    padding: 0% 3% 1% 0%;
+    padding: 3% 3% 3% 5%;
 }
 
 .about-text {
-    overflow: initial;
+    padding: 0% 8% 5% 5%;
 }
 
-.footer {
+.image-links1 {
+    width: 500px;
+    float: left;
+    margin: 6%;
+}
+
+footer {
+    clear: both;
     height: 60px;
     color: white;
     text-align: center;
+    line-height: 90px;
     margin-top: 10%;
     background-color: grey;
     padding-block-end: 10% 0% 10% 0%;
